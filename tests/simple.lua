@@ -7,6 +7,9 @@ local lua_data = {
   [0] = "zero",
   1, 2, 3, 4, 5,
   1024.2125,
+  65535,
+  -32767.992,
+  -10000.1058,
   {
     fucked = true,
     safe = false
