@@ -40,11 +40,7 @@ But there are some rules:
   table user. Were you trying to make my code loop infinitely?
 5. You can forget about your metatables. I completely ignore them. If you use
   `__index` shenanigans it will get completely messed up results on you.
-6. It's efficient enough. Don't @ me with how comparing stirngs linearly is
-  better than comparing their hash because I really do not care. It's not gonna
-  give you a significant change of efficiency. Plus this serializer is not made
-  for constant usage throughout your program! Read & write files as needed.
-  Haven't you heard that disk-access is slow anyway?
+6. It's efficient enough. Probably.
 
 ## MIT LICENSE
 Feel free to use it for your program or whatever. Issues are welcome.
